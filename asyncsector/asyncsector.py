@@ -13,7 +13,7 @@ class AsyncSector(object):
     Temperatures = 'Panel/GetTempratures/'
     History = 'Panel/GetPanelHistory/{}'
     Arm = 'Panel/ArmPanel'
-    Version = 'v1_1_67'
+    Version = 'v1_1_68'
 
     @classmethod
     async def create(cls, session, alarm_id, username, password):
